@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 11px;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(255,255,255) rgb(235,235,235));
+}
+
+h3{
+    display: none;
+}
+
+nav{
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    background: #005398;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+nav ul{
+        list-style: none;
+
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 5px;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+nav ul li:hover{
+    display: inline-block;
+    padding: 6px;
+    background: none;
+    color: #50C7C5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    align-self: center;
+    text-align: center;
+    color: aqua;
+    margin: auto;
+    width: 100%;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #005398;
+    color: rgb(255,255,255);
+}
+h2{
+    font-size: 25px;
+    color: #3952a4;
+}
+h2:hover{
+    padding: 2px;
+    color: #50C7C5;
+}
+
+section{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+section ul{
+    width: 100%;
+    list-style: none;
+}
+
+section ul li{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-animation: 5px;
+    -moz-transition: background .6s;
+}
+
+section ul li{
+    background: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+section ul li a img{
+    background-color: transparent;
+    max-width: 100%;
+}
+
+h4{
+    font-size: 12px;
+    color: white;
+}
+
+section ul li:hover{
+    background: #50C7C5;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+
+td h5{
+    font-size: 11px;
+}
+
+td h5:hover{
+    background: #005398;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+td a img:hover{
+    background-color: #005398;
+    border-radius: none;
+    padding: 5px;
+}
+.espacio{
+    margin-bottom: 2%;
+}
+
+.subtitulo{
+    color: white;
+    text-decoration: none;
+}
